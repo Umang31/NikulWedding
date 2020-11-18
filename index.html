@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+	<!-- <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script> -->
+<!-- 	<script type="text/javascript">
+   (function(){
+      emailjs.init("user_IUsV8GrDd8JVHWL9rMfob");
+   })();
+</script> -->
+	<head>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124899282-1"></script> -->
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-124899282-1');
+		</script>
+
+		<script src="js/jquery-2.2.4.min.js"></script>
+
+	  <!-- <script src="js/flipclock.min.js"></script> -->
+	  <!-- <script type="text/javascript">
+	  	$(document).ready(function(){
+	  		var timer = countdown( new Date(2020, 11, 19) ).toString();
+	  		console.log(timer);
+	  		document.getElementById('timer').innerHTML = timer;
+	  	});
+	  </script> -->
+	  <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 24, 2020 11:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("timer").innerHTML = "(" + days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s " + ")";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "-";
+  }
+}, 1000);
+</script>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel='shortcut icon' type='image/x-icon' href='img/heart.ico' />
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Umang and Vidhi</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Dosis:100,200,400,300,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes:100,200,400,300,500,600,700" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="css/linearicons.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/flipclock.css">
+	</head>
+	<body>
+      <header id="header" class="header-static" id="home">
+		    <div class="container">
+		    	<div class="row align-items-center justify-content-end d-flex">
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li class="menu-active"><a href="#home">Home</a></li>
+								<li><a href="#events">Events</a></li>
+			          <li><a href="#gallery">Gallery</a></li>
+								<!-- <li><a href="#story">Story</a></li> -->
+								<!-- <li><a href="#people">Wedding Party</a></li> -->
+			          <!-- <li><a href="#rsvp">RSVP</a></li>
+								<li><a href="https://www.zola.com/registry/jasmineandstefan">Registry</a></li> -->
+			        </ul>
+			      </nav><!-- #nav-menu-container -->
+		    	</div>
+		    </div>
+	    </header><!-- #header -->
+		<!-- start banner Area -->
+		<section class="banner-area" id="home">
+			<div class="container">
+				<div class="fullscreen d-flex align-items-center justify-content-center">
+					<div class="banner-content col-md-10">
+						<h1>
+								Save the date
+						</h1>
+						<h2 style="color: white; font-size: 45px">
+							<i class="fa fa-heart fa-xs" style="color:#f14e78; font-size: 25px; vertical-align: middle;"></i>
+								Umang &amp; Vidhi
+							<i class="fa fa-heart fa-xs" style="color:#f14e78; font-size: 25px; vertical-align: middle;"></i>
+						</h2>
+						<br>
+						<h3 style="color: white; font-size: 35px">
+								Are getting married
+						</h3>
+						<br>
+						<h3 style="color: white">
+								December 24th, 2020
+						</h3>
+						<h3 id="timer" style="color: white"></h3>
+				</div>
+			</div>
+		</section>
+		<!-- End banner Area -->
+
+		<!-- Start events Area -->
+		<section class="events-area section-gap" id="events">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-60 col-lg-10">
+						<div class="section-title-white text-center">
+							<h2 class="mb-10">Wedding Events</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="single-offer d-flex flex-row pb-30">
+							<div class="icon">
+								<img src="img/wedding-ring.png" style="height:100px; width:100px" alt="">
+							</div>
+							<div class="desc">
+								<a href="#"><h3>Wedding</h3></a>
+								<p style="font-size: 16px; color:#000000">
+									Hello family and friends! Our wedding dress code is semi-formal. The ceremony will begin at 6:00 pm sharp, we can't wait to see you there!
+								</p>
+								<p style="font-size: 16px; color:#000000">Location: The Gallery<br> 6303 Beverly Hill St, Houston, TX 77057</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single-offer d-flex flex-row pb-30">
+							<div class="icon">
+								<img src="img/champagne.png" style="height:100px; width:100px" alt="">
+							</div>
+							<div class="desc">
+								<a href="#"><h3>Reception</h3></a>
+								<p style="font-size: 16px; color:#000000">
+									After the ceremony, we'll have plenty of music, cocktails, food, and sweets! The reception ends at 10:00 pm
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End events Area -->
+
+		<!-- Start countdown Area -->
+		<!-- <section class="countdown-area relative section-gap" id="countdown">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="d-flex justify-content-center col-md-12">
+					<div class="row">
+						<div class="text-center col-md-12">
+							<div class="row">
+									<div class="wed-countdown"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End countdown Area -->
+
+		<!-- Start gallery Area -->
+		<section class="gallery-area section-gap" id="gallery">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-60 col-lg-10">
+						<div class="title text-center">
+							<h1 class="mb-10">Our Gallery</h1>
+							<!-- <a href="http://www.paytonhartsell.com" target="_blank">
+							<p style="font-size: 17px; color: #000000;">
+								<span class="lnr lnr-camera"></span>
+								by. Payton Hartsell
+								</p>
+							</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 gallery-image">
+					  <img class="image img-fluid" src="img/horizontal8.jpg" alt="">
+					  <a href="img/horizontal8.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-4 gallery-image">
+					  <img class="image img-fluid" src="img/collageVertical.jpg" alt="">
+					  <a href="img/collageVertical.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-4 gallery-image">
+					  <img class="image img-fluid" src="img/collageVertical1.jpg" alt="">
+					  <a href="img/collageVertical1.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-4 gallery-image">
+					  <img class="image img-fluid" src="img/collageVertical3.jpg" alt="">
+					  <a href="img/collageVertical3.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-4 gallery-image">
+					  <img class="image img-fluid" src="img/vertical5.jpg" alt="">
+					  <a href="img/vertical5.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-6 gallery-image">
+					  <img class="image img-fluid" src="img/horizontal.jpg" alt="">
+					  <a href="img/horizontal.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+					<div class="col-lg-6 gallery-image">
+					  <img class="image img-fluid" src="img/horizontal7.jpg" alt="">
+					  <a href="img/horizontal7.jpg" class="img-pop-up">
+						  <div class="middle">
+						    <div class="text"><span class="lnr lnr-frame-expand"></span></div>
+						  </div>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End gallery Area -->
+
+		<!-- Start story Area -->
+		<!-- <section class="story-area section-gap" id="story">
+			<div class="container">
+				<div class="row d-flex justify-content-center col-md-12">
+					<div class="menu-content pb-60 col-lg-10">
+						<div class="title text-center">
+							<h1 class="mb-10">Our Story</h1>
+						</div>
+					</div>
+				</div>
+		    <ul class="timeline col-md-12">
+		        <li>
+		          <div class="timeline-badge year">2012</div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Beginning</h3>
+		            </div>
+		            <div class="timeline-body">
+									<p id="short-beginnings">We met working at the same clothing store while we were in college.
+										We learned we had a lot in common. Our relationship began with us being best friends.
+										Quickly we became inseperable, and eventually started dating.
+									</p>
+		            </div>
+		          </div>
+		        </li>
+						<li>
+							<div class="timeline-badge year">2015</div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Graduation</h3>
+		            </div>
+		            <div class="timeline-body">
+		              <img class="img-fluid" src="img/graduation1.jpg" alt="">
+								</div>
+		          </div>
+							<div class="timeline-panel-inverted">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">
+										<br>
+									</h3>
+		            </div>
+		            <div class="timeline-body">
+		              <img class="img-fluid" src="img/graduation2.jpeg" alt=""></div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge year">2017</div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Engaged</h3>
+		            </div>
+		            <div class="timeline-body">
+									<p id="short-engagement">Stefan proposed May 4th, actually the same date as our wedding date.
+										In Sorrento, a small town on the Amalfi coast. We were at a quiet overlook facing the bay of Naples.
+									</p>
+		            </div>
+		          </div>
+							<div class="timeline-panel-inverted">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Sorrento, Italy</h3>
+		            </div>
+		            <div class="timeline-body">
+									<img class="img-fluid" src="img/candid3.jpg" alt="">
+		            </div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge year">2019</div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Getting Married!</h3>
+		            </div>
+		          </div>
+		        </li>
+						<li>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Cheers!</h3>
+		            </div>
+		            <div class="timeline-body">
+									<p> Frigidarium. Best gelato in Rome</p>
+		              <img class="img-fluid" src="img/frigidarium.jpg" alt="">
+		            </div>
+		          </div>
+		        </li>
+		    </ul>
+			</div>
+		</section> -->
+
+		<!-- Start story Area -->
+		<!-- <section class="story-area section-gap" id="story">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-60 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Our Story</h1>
+							<p>Who are in extremely love with eco friendly system.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 single-blog">
+						<img class="img-fluid" src="img/b1.jpg" alt="">
+						<ul class="tags">
+							<li><a href="#">Travel</a></li>
+							<li><a href="#">Life style</a></li>
+						</ul>
+						<a href="#"><h4>Portable latest Fashion for young women</h4></a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
+						</p>
+						<p class="post-date">31st January, 2018</p>
+					</div>
+					<div class="col-lg-6 single-blog">
+						<img class="img-fluid" src="img/b2.jpg" alt="">
+						<ul class="tags">
+							<li><a href="#">Travel</a></li>
+							<li><a href="#">Life style</a></li>
+						</ul>
+						<a href="#"><h4>Portable latest Fashion for young women</h4></a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
+						</p>
+						<p class="post-date">31st January, 2018</p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End story Area -->
+
+		<!-- Start people Area -->
+<!-- 		<section class="people-area section-gap" id="people">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-60 col-md-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Wedding Party</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="row justify-content-center">
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/cami-resize.png" alt="">
+							<h3>Cami Barlow</h3>
+							<p class="people-title">
+								Bridesmaid
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/jennifer-resize.jpg" alt="">
+							<h3>Jennifer Carrillo</h3>
+							<p class="people-title">
+								Maid of Honor
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/rachel-resize.jpg" alt="">
+							<h3>Rachel Madrigal</h3>
+							<p class="people-title">
+								Bridesmaid
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/shayla-resize.png" alt="">
+							<h3>Shayla Meeks</h3>
+							<p class="people-title">
+								Bridesmaid & Cousin
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="row justify-content-center">
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/anthony-resize.jpg" alt="">
+							<h3>Anthony Theard</h3>
+							<p class="people-title">
+								Best Man & Brother
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/logan-resize.png" alt="">
+							<h3>Logan Theard</h3>
+							<p class="people-title">
+								Groomsman & Brother
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/chase-resize.png" alt="">
+							<h3>Chase Theard</h3>
+							<p class="people-title">
+								Groomsman & Brother
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/andrew-resize.png" alt="">
+							<h3>Andrew Theard</h3>
+							<p class="people-title">
+								Groomsman & Brother
+							</p>
+						</div>
+					</div>
+					</div>
+
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content col-md-8" style="padding-top: 20px;">
+						<div class="title text-center">
+							<h1 class="mb-10">Parents</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="row justify-content-center">
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/mom-resize.png" alt="">
+							<h3>Candace Wiggins</h3>
+							<p class="people-title">
+								Mother of the Bride
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/dad-resize.jpg" alt="">
+							<h3>Barry Wiggins</h3>
+							<p class="people-title">
+								Father of the Bride
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/vickye-resize.jpg" alt="">
+							<h3>Vickye Chapman</h3>
+							<p class="people-title">
+								Mother of the Groom
+							</p>
+						</div>
+						<div class="person-info col-md-2">
+							<img class="mx-auto pb-10" src="img/michael-resize.jpg" alt="">
+							<h3>Michael Theard</h3>
+							<p class="people-title">
+								Father of the Groom
+							</p>
+						</div>
+					</div>
+				</div>
+		 	</div>
+		</section> -->
+		<!-- End people Area -->
+
+		<!-- Start RSVP Area -->
+	<!-- 	<section class="rsvp-area section-gap" id="rsvp">
+			<div class="container">
+					<div class="pb-60 col-md-12">
+						<div class="row d-flex justify-content-center">
+							<div class="title col-md-6">
+								<div class="row justify-content-center text-center">
+									<h1 class="mb-10">Join Us</h1>
+									<p>Please reserve before April 13th</p>
+								</div>
+							</div>
+						</div>
+						<div class="row d-flex">
+							<div class="form-wrapper col-md-12">
+								<form id="rsvp-form" method="post">
+									<div class="form-row">
+							  		<div class="form-group col-sm-3">
+							    		<input type="text" class="form-control" id="fname" placeholder="Name*" required>
+							  		</div>
+								  	<div class="form-group col-sm-5">
+								    	<input type="text" class="form-control" id="email" placeholder="Email*" required>
+								  	</div>
+										<div class="form-group col-sm-2">
+										  <select class="btn btn-secondary form-control" id="attendingDropdown" required>
+												<option>I Am Attending</option>
+												<option>I Cannot Attend</option>
+										  </select>
+									  </div>
+										<div class="form-group col-sm-1">
+											<button class="btn btn-secondary add-one" type="button" id="newGuestButton" class="add-button"  aria-haspopup="true" aria-expanded="false">
+												Add Guest (*Family/plus one)
+											</button>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="col-lg-12 dynamic-stuff">
+										</div>
+									</div>
+									<div class="form-row d-flex justify-content-center col-md-12">
+										<div class="col col-md-4"></div>
+										<div class="col col-md-4 submit-btn text-center">
+												<button type="submit" class="submit btn btn-secondary">Send Reservation</button>
+												<span id="loader" hidden><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
+										</div>
+										<div class="col col-md-4"></div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-row form-group dynamic-element" style="display:none">
+				<div class="col col-md-10">
+					<input type="text" class="form-control guestInput" id="guestInput" placeholder="Guest Name">
+				</div>
+				<div class="col-md-2">
+					<button class="delete btn btn-secondary btn-xs" id="deleteButton" style="margin-bottom: 5px;">
+						<i class="fa fa-trash"></i>
+					</button>
+				</div>
+			</div> -->
+
+			<!-- submit modal popup -->
+			<!-- <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+				<div class="modal-dialog" role="document">
+				  <div class="modal-content col-md-8">
+				    <div class="modal-body">
+							<div class="col col-sm-8">
+				        <h2 class="modal-title">Thank you!</h2>
+						  </div>
+				    </div>
+						<div class="modal-footer">
+							<img class="mx-auto" src="img/JS.png" alt="" style="height:20px;width:60px">
+							<button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+						</div> -->
+				  <!-- </div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End rsvp Area -->
+
+		<!-- start footer Area -->
+		<footer class="footer-area section-gap-small">
+			<div class="container">
+				<div class="row footer-bottom d-flex justify-content-between">
+					<div class="col-lg-12 col-sm-12 footer-social">
+						<!-- <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+							Copyright &copy; <script>document.write(new Date().getFullYear());</script>  All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i> by Umang Patel</a>
+						</p> -->
+						<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+							Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Umang Patel
+						</p>
+						<p class="col-lg-8 col-sm-12 footer-text m-0 text-white"># Stay Safe</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer Area -->
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/easing.min.js"></script>
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
+		<script src="js/parallax.min.js"></script>
+		<script src="js/mail-script.js"></script>
+		<script src="js/add-guests.js"></script>
+		<script src="js/main.js"></script>
+		<!-- <script src="js/countdown.min.js"></script> -->
+	</body>
+</html>
