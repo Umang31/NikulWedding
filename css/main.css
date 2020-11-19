@@ -2235,7 +2235,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 40px 0;
 }
 
 .section-gap-small {
@@ -2344,7 +2344,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content h1 {
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 400;
   line-height: 1em;
   margin-top: 20px;
@@ -2375,7 +2375,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 90px;
+    font-size: 65px;
   }
 }
 

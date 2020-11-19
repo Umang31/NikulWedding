@@ -80,7 +80,7 @@ var x = setInterval(function() {
 		    	<div class="row align-items-center justify-content-end justify-content-sm-end d-flex">
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li class="menu-active"><a href="#home">Home</a></li>
+			          <li><a href="#home">Home</a></li>
 								<li><a href="#events">Events</a></li>
 			          <li><a href="#gallery">Gallery</a></li>
 			        </ul>
@@ -92,7 +92,7 @@ var x = setInterval(function() {
 		<section class="banner-area" id="home">
 			<div class="container">
 				<div class="fullscreen d-flex align-items-center justify-content-center">
-					<div class="banner-content col-md-10 col-sm-12">
+					<div class="banner-content col-md-10">
 						<h1>
 								Save the date
 						</h1>
@@ -102,16 +102,17 @@ var x = setInterval(function() {
 							<i class="fa fa-heart fa-xs" style="color:#f14e78; font-size: 25px; vertical-align: middle;"></i>
 						</h2>
 						<br>
-						<h3 style="color: hotpink; font-size: 35px">
+						<h3 style="color: hotpink; font-size: 40px">
 								Are getting married
 						</h3>
 						<br>
-						<h3 style="color: hotpink">
+						<h3 style="color: hotpink; font-size: 35px">
 								December 24th, 2020
 						</h3>
-						<h3 id="timer" style="color: hotpink"></h3>
+						<h3 id="timer" style="color: hotpink; font-size: 30px"></h3>
 				</div>
 			</div>
+		</div>
 		</section>
 		<!-- End banner Area -->
 
@@ -132,8 +133,8 @@ var x = setInterval(function() {
 								<img src="img/wedding-ring.png" style="height:100px; width:100px" alt="">
 							</div>
 							<div class="desc">
-								<h3>Engagement</h3>
-								<p style="font-size: 16px; color:#000000">Date: 23rd December, 2020<br> Time: 7:30 am</p>
+								<h3 style="font-size: 30px">Engagement</h3>
+								<p style="font-size: 20px; color:#000000">Date: 23rd December, 2020<br> Time: 7:30 am</p>
 							</div>
 						</div>
 					</div>
@@ -143,8 +144,8 @@ var x = setInterval(function() {
 								<img src="img/mandap.png" style="height:100px; width:100px" alt="">
 							</div>
 							<div class="desc">
-								<h3>Mandap Muhurat</h3>
-								<p style="font-size: 16px; color:#000000">Date: 23rd December, 2020<br> Time: 11:40 am</p>
+								<h3 style="font-size: 30px">Mandap Muhurat</h3>
+								<p style="font-size: 20px; color:#000000">Date: 23rd December, 2020<br> Time: 11:40 am</p>
 							</div>
 						</div>
 					</div>
@@ -156,11 +157,11 @@ var x = setInterval(function() {
 								<img src="img/sangeet.png" style="height:100px; width:100px" alt="">
 							</div>
 							<div class="desc">
-								<h3>Sangeet</h3>
+								<h3 style="font-size: 30px">Sangeet</h3>
 								<!-- <p style="font-size: 16px; color:#000000">
 									Hello family and friends! Our wedding dress code is semi-formal. The ceremony will begin at 6:00 pm sharp, we can't wait to see you there!
 								</p> -->
-								<p style="font-size: 16px; color:#000000">Date: 23rd December, 2020<br> Time: 6:30 pm onwards</p>
+								<p style="font-size: 20px; color:#000000">Date: 23rd December, 2020<br> Time: 6:30 pm onwards</p>
 							</div>
 						</div>
 					</div>
@@ -170,8 +171,8 @@ var x = setInterval(function() {
 								<img src="img/wedding-couple.png" style="height:100px; width:100px" alt="">
 							</div>
 							<div class="desc">
-								<h3>Wedding</h3>
-								<p style="font-size: 16px; color:#000000">Date: 24th December, 2020<br> Time: 12:39 pm</p>
+								<h3 style="font-size: 30px">Wedding</h3>
+								<p style="font-size: 20px; color:#000000">Date: 24th December, 2020<br> Time: 12:39 pm</p>
 							</div>
 						</div>
 					</div>
@@ -181,6 +182,9 @@ var x = setInterval(function() {
 		<!-- End events Area -->
 
 		<!-- Start countdown Area -->
+		<section class="events-area relative" id="countdown" style="padding:200px">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.0784017607757!2d72.86414295755348!3d19.23541458951958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1c6e12848bd%3A0x82e2908d22debe0d!2sPatidar%20Seva%20Samaj!5e0!3m2!1sen!2sin!4v1605791608412!5m2!1sen!2sin" frameborder="0" width="100%" height="100%" style="border:0; pointer-events: none; height: 100%; position: absolute; top:0; bottom:0;left:0;right:0;" allowfullscreen></iframe>
+	</section>
 		<!-- <section class="countdown-area relative section-gap" id="countdown">
 			<div class="overlay overlay-bg"></div>
 			<div class="container">
@@ -204,12 +208,6 @@ var x = setInterval(function() {
 					<div class="menu-content pb-60 col-lg-10">
 						<div class="title text-center">
 							<h1 class="mb-10">Our Gallery</h1>
-							<!-- <a href="http://www.paytonhartsell.com" target="_blank">
-							<p style="font-size: 17px; color: #000000;">
-								<span class="lnr lnr-camera"></span>
-								by. Payton Hartsell
-								</p>
-							</a> -->
 						</div>
 					</div>
 				</div>
