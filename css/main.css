@@ -2375,7 +2375,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 65px;
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 295px) {
+  .banner-content h1 {
+    margin-top: 80px !important;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner-content h1 {
+    margin-top: 80px !important;
+    font-size: 35px;
   }
 }
 
