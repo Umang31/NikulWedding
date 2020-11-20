@@ -2338,7 +2338,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: -350px;
+  margin-top: -300px;
   text-align: center;
   width: 100%;
 }
@@ -2347,7 +2347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 90px;
   font-weight: 400;
   line-height: 1em;
-  margin-top: 20px;
+  margin-top: 10px;
   color: hotpink;
 }
 
@@ -2369,7 +2369,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
   .banner-content h1 {
-    font-size: 90px;
+    font-size: 80px;
   }
 }
 
