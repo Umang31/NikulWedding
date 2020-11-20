@@ -2347,7 +2347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 80px;
   font-weight: 400;
   line-height: 1em;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   color: hotpink;
 }
 
@@ -2395,7 +2395,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 45px;
   font-weight: 400;
   line-height: 1em;
-  margin-top: 10px;
+  margin-top: 20px;
   color: hotpink;
 }
 
