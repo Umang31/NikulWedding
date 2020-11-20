@@ -2344,7 +2344,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content h1 {
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 1em;
   margin-top: 10px;
@@ -2357,7 +2357,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991.98px) {
   .banner-content h1 {
-    font-size: 90px;
+    font-size: 80px;
   }
 }
 
@@ -2375,19 +2375,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 50px;
+    font-size: 55px;
   }
 }
 
 @media (max-width: 295px) {
   .banner-content h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 320px) {
   .banner-content h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
