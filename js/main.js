@@ -53,7 +53,7 @@ $(document).ready(function(){
 
     $(document).on('click', '#mobile-nav-toggle', function(e) {
       $('body').toggleClass('mobile-nav-active');
-      $('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
+      // $('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
       $('#mobile-body-overly').toggle();
     });
 
