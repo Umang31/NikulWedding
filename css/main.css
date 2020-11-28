@@ -3069,6 +3069,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom:40px;
 }
 
+.title-venue{
+  text-align:center;
+  font-size:40px;
+  margin-bottom:10px;
+}
+
 .dynamic-element{
   margin-bottom:0px;
 }
