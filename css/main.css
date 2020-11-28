@@ -2335,8 +2335,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/cover-blurred.JPG) center;
   background-size: cover;
-  background-attachment:scroll;
+  /*background-attachment:scroll;*/
 }
+
+@supports (-webkit-overflow-scrolling: touch) {   body *: {     background-attachment: scroll;  } }
 
 .banner-content {
   margin-top: -250px;
